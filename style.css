@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #C2185B, #FFC107);
+}
+
+.wrapper {
+    width: 500px;
+    background: #fff;
+    border-radius: 7px;
+    padding: 20px 25px 15px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+header h1 {
+    font-size: 27px;
+    font-weight: 500;
+}
+
+header p {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #474747;
+}
+
+input {
+    width: 100%;
+    height: 60px;
+    outline: none;
+    padding: 0 17px;
+    font-size: 19px;
+    border-radius: 5px;
+    border: 1px solid #b3b2b2;
+    transition: 0.1s ease;
+}
+
+input::placeholder {
+    color: #b3b2b2;
+}
+
+input:focus {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
+}
+
+button {
+    width: 100%;
+    border: none;
+    opacity: 0.7;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    margin-top: 20px;
+    padding: 15px 0;
+    border-radius: 5px;
+    pointer-events: none;
+    background: #FFC107;
+    transition: opacity 0.15s ease;
+}
+
+input:valid~button {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+}
+
+
+/*a*/
+* a {
+    color: #FFC107;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+* a:hover {
+    color: #C2185B;
+    text-decoration: none;
+}
+
+* a:first-of-type {
+    color: #FFC107;
+}
+
+* a:first-of-type:hover {
+    color: #C2185B;
+}
+
+/*
+Palette 1 
+Primary color: #000000 
+Secondary color: #ffffff 
+Tertiary color: #555555 
+Accent color: #ff0000 
+Palette 2 
+Primary color: #ffffff 
+Secondary color: #000000 
+Tertiary color: #4285f4 
+Accent color: #f44336 
+Palette 3 
+Primary color: #00BCD4 
+Secondary color: #2196F3 
+Tertiary color: #3F51B5
+Accent color: #FF5722 
+Palette 4 
+Primary color: #673AB7 
+Secondary color: #3F51B5 
+Tertiary color: #C2185B 
+Accent color: #FFC107 Palette 5 Primary color: #2196F3 Secondary color: #3F51B5 Tertiary color: #FF5722 Accent color: #CDDC39 These are just a few examples,
+and you can choose any colors that you like. The important thing is to choose colors that are easy to read and that complement each other. You should also avoid using too many colors,
+as this can make your website look cluttered. Here are some additional tips for choosing colors for your password generator website: Use colors that are associated with security and trust. For example,
+you could use shades of blue or green. Use colors that are easy to read. Avoid using colors that are too bright or too dark. Use colors that are consistent with your brand. If you have a logo or branding colors,
+use those colors on your password generator website. Use a color contrast checker to make sure that your text is readable against the background color. By following these tips,
+you can choose colors that will make your password generator website look professional and secure.
+*/

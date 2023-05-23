@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1747522604463523"
+        crossorigin="anonymous"></script>
+    <link rel="icon" href="images/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="Ios/apple-touch-icon.png">
+    <link rel="icon" href="images/favicon.ico" sizes="any">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="IOS/apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json" crossorigin="use-credentials" />
+    <meta name="keywords"
+        content="password generator, strong passwords, secure passwords, easy to remember passwords, free password generator">
+    <meta name="description"
+        content="Our password generator is a free and easy-to-use tool that helps you create strong and secure passwords.">
+
+</head>
+
+<body lang="en">
+    <div class="wrapper">
+        <header>
+            <h1>Password generator</h1>
+            <p>Our password generator is a free and easy-to-use tool that helps you create strong and secure passwords.
+            </p>
+        </header>
+        <input type="number" placeholder="length" id="length" min="1" style="margin-top: 27px;">
+        <div>
+            <input type="checkbox" class="checkbox" id="Uppercase" name="source" value="instagram">
+            <label for="Uppercase">Uppercase</label>
+        </div>
+        <div>
+
+            <input type="checkbox" class="checkbox" id="lowercase" name="source" value="instagram">
+            <label for="Lowercase">Lowercase</label>
+        </div>
+        <div>
+
+            <input type="checkbox" class="checkbox" id="numbers" name="source" value="instagram">
+            <label for="Numbers">Numbers</label>
+        </div>
+        <div>
+
+            <input type="checkbox" class="checkbox" id="symbols" name="source" value="instagram">
+            <label for="Symbols">Symbols</label>
+        </div>
+        <button onclick="generate()" id="button">Generate</button>
+        <input type="text" placeholder="Password" id="password" readonly style="margin-top: 20px;">
+        <h2 style="margin-top: 20px;">Website developed by <a href="https://rami-dv.github.io"
+                target="_blank">rami-dv</a></h2>
+
+    </div>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
