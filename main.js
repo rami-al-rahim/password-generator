@@ -21,7 +21,13 @@ function generatePassword(length) {
         chars += charsUppercase
     }
     if (chars == null || length == "") {
-        alert('please enter data')
+        if (chars == null && length == "") {
+            alert('please enter length of password and letters in the password')
+        } else if (chars == null) {
+            alert('please enter letters in the password')
+        } else if (length == "") {
+            alert('please enter length of password')
+        }
         return null
     } else {
         // Generate a random password of the specified length.
