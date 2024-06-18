@@ -1,10 +1,10 @@
 {
-  "name": "عكس النص",
-  "short_name": "عكس",
+  "name": "Password generator",
+  "short_name": "Password",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#4285F4",
-  "description": "تتطبيق لعكس النص العربي لأستخدامه في المواقع و التطبيقلت التي لا تتدعم اللغة العربية",
+  "description": "Generate secure passwords with our free online password generator. Our tool is easy to use and completely secure, and it can help you create strong passwords that are impossible to crack.",
   "theme_color": "#6A3DE8",
   "icons": [
     {
